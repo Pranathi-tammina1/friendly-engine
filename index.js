@@ -41,6 +41,7 @@ function playRound(humanChoice, computerChoice){
         computerScore++;
         console.log("You lose! " + computerChoice + " beats " + humanChoice);
         return "You lose! " + computerChoice + " beats " + humanChoice;
+        
     }
 }
 
